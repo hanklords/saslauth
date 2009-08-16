@@ -7,4 +7,4 @@ SASLauth is a library to connect to saslauthd
  require 'saslauth'
 
  auth = SASLauth.new("/path/to/saslauthd/socket")
- auth.authenticate("user", password) # => This will return true or false if you are authenticated
+ auth.authenticate("user", "password") # => This will return true or false if you are authenticated
